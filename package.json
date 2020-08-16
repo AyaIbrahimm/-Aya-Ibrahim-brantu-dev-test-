@@ -1,0 +1,31 @@
+{
+  "name": "-aya-ibrahim-brantu-dev-test-",
+  "version": "1.0.0",
+  "description": "Hello and welcome, this test is to serve as your pre employment test to join elprices.com team.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start":"nodemon --watch Backend --exec babel-node Backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyaIbrahimm/-Aya-Ibrahim-brantu-dev-test-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyaIbrahimm/-Aya-Ibrahim-brantu-dev-test-/issues"
+  },
+  "homepage": "https://github.com/AyaIbrahimm/-Aya-Ibrahim-brantu-dev-test-#readme"
+}
