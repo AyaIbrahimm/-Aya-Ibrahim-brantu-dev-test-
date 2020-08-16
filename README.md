@@ -1,45 +1,31 @@
 # README #
 
-Hello and welcome, this test is to serve as your pre employment test to join elprices.com team. 
+### Introduction ###
+This is a short overview about the functionality of the website, first of all the home page has all the products provided which are loaded into a MongoDB database with the ability to search/filter by just typing in the search bar with the name of the desired product. Also there is an option to click on a certain product which will navigate to the product details page that includes all info about the selected product.Finally, a new product can be added by clicking on create product button, filling in all information about the new product to be created then it will be automatically added to the database and the product list in the home page will be updated.
 
-### Process ###
-By now you should had a preliminary meeting with the Product Manager and Tech Lead to assess your basic technical knowledge. We believe with our stack a soft engineer is an engineer who can be placed in the frontend or backend an able to perform **fullstackers**.
+## Run Locally
+### 1. Clone repo
 
-Our process is simple:
-1. HR and Basic Technical Interview
-2. Technical Task
-3. Final Interview with the founders
-4.   ...You are Hired...
+```
+$ git https://github.com/AyaIbrahimm/-Aya-Ibrahim-brantu-dev-test-.git
+$ cd AyaIbrahimm/-Aya-Ibrahim-brantu-dev-test-
+```
 
-### The test aims to demonstrate the following? ###
-1. The ability to understand logic and workflows design
-2. Your ability to write clean and concise code.
-3. Database architecture understanding
-4. Knowledge of the used stack
-5. Time taken to deliver
+### 2. Run Backend
 
-### Idea in Brief ###
-* Type any letter in the search bar and the code should be able to read the input on change and search in the [name] key in the JSON file that is provided with this task.
-* A list of products should be displayed, as a result of the search or no products found message.
+```
+$ npm install
+$ npm start
+```
 
-### Guide-rails ###
-- You should use React as your main render library.
-- You should structure your code into small reusable components.
-- You should styled-components for the css code.
-- You should use Express/NodeJS as you BackEnd
-- You should use Mongoose/MongoDB as your Database
+### 3. Run Frontend
 
-### What are the steps ###
-* Fork this project add your name to rename the project. ([firstName]-[lastName]-brantu-dev-test)
-* Clone it
-* Setup React, Webpack, Express and MongoDB [hint use react-app]
-* Create The Model through Mongoose
-* Load Data to MongoDB. Use the products provided in products.json file
-* Setup a server and an **endpoint** for the search using Express/Mongoose.
-* Create a FrontEnd [Hint: Using Redux is a plus]
-* The Frontend should show all the products and when the user search for a specific product, the page should hit the API endpoint and get the results
-* Commit When ready
+```
+# open new terminal
+$ cd brantutask
+$ npm install
+$ npm start
+```
 
-### Who Should I talk to if I have questions? ###
-You can either contact
-* Contact Mohamed Rizk  => Rizk@brantu.com
+
+
